@@ -5,7 +5,7 @@ This test plan project was requested during a job application process. I was giv
 The following link explains what the custom page feature does and how it works. 
 https://pcopublishing.zendesk.com/hc/en-us/articles/360052458693-Create-a-Custom-Page
 
-* The table of contents has been omitted to make this page more legible * 
+The table of contents has been omitted to make this page more legible
 
 
 # Introduction
