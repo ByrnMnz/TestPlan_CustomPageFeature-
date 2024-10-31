@@ -107,20 +107,31 @@ Exploratory testing will play a large part in the testing, as it focuses on loca
 
 ## 3.2	Test Scope:
 In-scope testing
+
 •	Functional testing of all interactive elements (forms, buttons, links).
+
 •	Verifying page layout consistency across different browsers and devices.
+
 •	Ensuring the page adheres to the design and functionality specifications.
+
 •	Load and stress testing for performance validation.
+
 •	Security validation to protect user data and prevent vulnerabilities.
+
 •	Multi-user collaboration to ensure no crashes while multiple users update/edit the custom page(s)
+
 Out-of-Scope
+
 •	API or back-end server testing (assumed to be handled separately).
 
 ## 4 Test Environment
 
 •	Operating Systems: Windows 10, Windows 11, Linux, macOS, iOS, Android
+
 •	Browsers: Chrome, Firefox, Safari, Edge
+
 •	Devices: Desktop, Tablet, Mobile (various screen resolutions)
+
 •	Network: High-speed and slow internet conditions will be incorporated.
 
 ## 4.1	Test Cases
@@ -191,7 +202,8 @@ The initial test schedule follows……….
 •	Final Test Summary
 
 # 6	Entry & Exit Criteria
-6.1	Entry Criteria:
+
+# 6.1	Entry Criteria:
 
 •	Custom Page Development is complete and ready for testing
 
@@ -199,7 +211,7 @@ The initial test schedule follows……….
 
 •	Test data is available for all input fields and scenarios
 
-6.2	Exit Criteria:
+# 6.2	Exit Criteria:
 
 •	All test cases executed with 100% coverage.
 
