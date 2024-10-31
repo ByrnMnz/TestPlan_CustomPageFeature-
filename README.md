@@ -64,12 +64,11 @@ Rewriting, moving, or archiving existing test cases from the existing Word docum
 
 ## 1.3 Team Members:
 
-Role	Name	Responsibilities
-QA Lead	[Name]	Define test plans, review test cases, and manage overall execution.
-
-
-QA Engineer/Tester	Byron Munoz	Execute manual and automated tests and report defects.
-Developer	[Name]	Provide builds for testing and assist with bug fixes.
-UI/UX Designer	[Name]	Validate that the custom page adheres to design guidelines.
-Product Manager	[Name]	Ensure the custom page meets business and user requirements.
-DevOps Engineer	[Name]	Manage the test environment and deployment process.
+| Role               | Name          | Responsibilities                                                    |
+| ------------------ |:-------------:| -------------------------------------------------------------------:|
+| QA Lead            | [Name]        | Define test plans, review test cases, and manage overall execution. |
+| QA Engineer/Tester | [Name]        | Execute manual and automated tests and report defects.              |
+| Developer          | [Name]        | Provide builds for testing and assist with bug fixes.               |
+| UI/UX Designer     | [Name]        | Validate that the custom page adheres to design guidelines.         |
+| Product Manager    | [Name]        | Ensure the custom page meets business and user requirements.        |
+| DevOps Engineer    | [Name]        | Manage the test environment and deployment process.                 |
