@@ -65,10 +65,25 @@ Rewriting, moving, or archiving existing test cases from the existing Word docum
 ## 1.3 Team Members:
 
 | Role               | Name          | Responsibilities                                                    |
-| ------------------ |:-------------:| -------------------------------------------------------------------|
+| ------------------ |:-------------:| ------------------------------------------------------------------- |
 | QA Lead            | [Name]        | Define test plans, review test cases, and manage overall execution. |
 | QA Engineer/Tester | [Name]        | Execute manual and automated tests and report defects.              |
 | Developer          | [Name]        | Provide builds for testing and assist with bug fixes.               |
 | UI/UX Designer     | [Name]        | Validate that the custom page adheres to design guidelines.         |
 | Product Manager    | [Name]        | Ensure the custom page meets business and user requirements.        |
 | DevOps Engineer    | [Name]        | Manage the test environment and deployment process.                 |
+
+## Risks
+
+| Risk                                    | Impact                                                              | Trigger                                                              | Mitigation Stratagy                                                                                           |
+| --------------------------------------- |:-------------------------------------------------------------------:| -------------------------------------------------------------------  | ------------------------------------------------------------------------------------------------------------- |
+| Page performance issues when under load | Slow page load times or crashes during peak usage.                  | High traffic volume or inefficient resource handling.                | Conduct early performance testing, optimize code, use caching, and CDN to improve performance.
+| Security vulnerabilities.               | Exposure of sensitive data or compromise of the system.             | Lack of proper input validation and insecure communication channels. | Perform thorough security testing (e.g., penetration testing), validate with security experts, and use HTTPS.
+| Cross-browser compatibility             | Inconsistent user experience across different browsers.             | Page elements render differently or break on specific browsers.	     |Test the custom page across all targeted browsers early in development.
+| Design inconsistencies                  | Poor user experience and potential usability issues.                | Design elements appear differently than intended across devices.	   | Regularly validate design with the UI/UX team, ensuring alignment with style guides and responsive design.
+| Data loss during form submissions       | Loss of user input or incomplete data processing.                   | System crashes or errors during form submission.	                   | Use dummy test data, implement robust backup mechanisms, and log transactions to prevent and recover data loss.
+| Unclear or incomplete requirements      | Unclear or incomplete requirements                                  | Misinterpretation of requirements or incomplete documentation.       | Review requirements with stakeholders, maintain a requirements traceability matrix, and clarify any ambiguities.
+| Deployment and environmental issues     | Features may not work as expected due to ecological differences.    | Misconfigured test environment and different software versions.         | Maintain consistency between test and production environments and use CI pipelines for automated deployment.
+
+
+
