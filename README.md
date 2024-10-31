@@ -168,7 +168,7 @@ Out-of-Scope
 The initial test schedule follows……….
 
 | Phase                  | Duration | Team Member                  | 
-| -----------------------|:-------: | ---------------------------- | 
+| -----------------------|--------- | ---------------------------- | 
 | Test Plan Review       | 3 Days   | QA Lead, Product Manager     |
 | Environment Setup      | 1 Day    | DevOps Engineer              |
 | Test Case Design       | 3 Days   | QA Engineers                 |
@@ -181,20 +181,28 @@ The initial test schedule follows……….
 # 5.2	Deliverables:
 
 •	Detailed Test Plan
+
 •	Tests Case Documentation
+
 •	Test Execution Report
+
 •	But Reports (tracking in the bug tracking system)
+
 •	Final Test Summary
 
 # 6	Entry & Exit Criteria
 6.1	Entry Criteria:
 
 •	Custom Page Development is complete and ready for testing
+
 •	Test environment is set up and accessible
+
 •	Test data is available for all input fields and scenarios
 
 6.2	Exit Criteria:
 
 •	All test cases executed with 100% coverage.
+
 •	No critical or high-severity bugs remain unresolved.
+
 •	The test summary report has been reviewed and approved by stakeholders.
