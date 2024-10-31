@@ -9,25 +9,45 @@ https://pcopublishing.zendesk.com/hc/en-us/articles/360052458693-Create-a-Custom
 
 INTRODUCTION 
 1.1 PURPOSE
+
 1.2 SCOPE
+
 1.3 TEAM MEMBERS
+
 2 RISKS
+
 3 TEST APPROACH 
+
 3.1 TESTING OBJECTIVES
+
 3.2 TEST SCOPE
+
 3.3 TEST STRATEGY
+
 4 TEST ENVIRONMENT
+
 4.1 TEST CASES
+
 4.1.1 Functional Tests
+
 4.1.2 UI/UX Tests
+
 4.1.3 Performance Tests
+
 4.1.4 Cross-Browser Compatibility
+
 4.1.5 Security Tests
+
 5 MILESTONES & DELIVERABLES
+
 5.1 TEST SCHEDULE
+
 5.2 DELIVERABLES
+
 6 ENTRY & EXIT CRITERIA
+
 6.1 ENTRY CRITERIA
+
 6.2 EXIT CRITERIA
 
 # Introduction
