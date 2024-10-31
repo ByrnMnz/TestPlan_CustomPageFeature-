@@ -8,7 +8,6 @@ https://pcopublishing.zendesk.com/hc/en-us/articles/360052458693-Create-a-Custom
 The table of contents has been omitted to make this page more legible
 
 
-# Introduction
 ## 1.1 Purpose:
 
 The test plan has been created to communicate the test approach to all team members. Its purpose is to validate the functionality, performance, and security of the custom page developed by Planning Center Publishing. This document presents the scope, risks, test approaches, test environments, testing methods, milestones and deliverables, and a completion and exit strategy.
