@@ -90,8 +90,18 @@ Rewriting, moving, or archiving existing test cases from the existing Word docum
 | Multiple Control Conflicts               | Multiple contributors might cause code conflicts or revert significant changes, impacting the page’s stability. | Poor version control management or multiple team members editing simultaneously. | Use a robust version control system (e.g., Git) to enforce clear commit/pull request processes and conduct regular code reviews.  |
 | Unforeseen User-Generated Content Issues | Users may post inappropriate or harmful content (if user input is allowed).                                     | Insufficient content moderation or validation mechanisms.                        | Implement content moderation tools, set up filters to flag inappropriate content, and establish user-reporting mechanisms.        |
 
+## Test Approach
 
+The custom page feature on Planning Center Publishing should use either an Agile or Scrum testing approach. Both provide flexibility to adapt to changing requirements and allow continuous testing integration through development. 
 
+Exploratory testing will play a large part in the testing, as it focuses on locating unexpected issues by allowing testers to explore the page’s functionality freely. This will ensure a smooth user experience by testing real-world scenarios, such as navigating the UI, submitting forms, handling errors, and managing user permissions. Exploratory testing reveals hidden bugs and edge cases that may not be caught using scripts.
 
+## 3.1 Testing Objectives:
 
+1.	Functionality Verification: Ensures all features on the custom page (social, buttons, links, event schedule, etc.) work as intended and align with the user’s requirements.
+2.	UI/UX Validation: Confirm that the custom page provides an intuitive, user-friendly experience and is visually consistent with the rest of the Planning Center platform.
+3.	Performance Testing: Verify that a custom page loads quickly and efficiently and handles regular and peak traffic.
+4.	Cross-browser and Device Compatibility: Ensures the custom page works across various browsers (Chrome, Firefox, Edge, Safari) and devices (desktop, tablet, mobile).
+5.	Security Testing: Ensure that the custom page is secure, protecting sensitive user data, and adhering to best practices for web security.
+6.	Regression Testing: Confirm that the custom page's functionalities remain stable after updates or new releases.
 
