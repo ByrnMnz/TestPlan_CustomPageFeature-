@@ -32,6 +32,7 @@ INTRODUCTION ...................................................................
 # Introduction
 1.1 Purpose:
 The test plan has been created to communicate the test approach to all team members. Its purpose is to validate the functionality, performance, and security of the custom page developed by Planning Center Publishing. This document presents the scope, risks, test approaches, test environments, testing methods, milestones and deliverables, and a completion and exit strategy.
+
 1.2 Scope:
 This plan will cover functional testing, user acceptance testing (UAT), performance testing, cross-browser compatibility, security checks, and responsive testing on various devices and browsers.
 Performance testing will be considered part of this project due to the large user base and concurrent users using the site hourly or daily.
