@@ -65,7 +65,7 @@ Rewriting, moving, or archiving existing test cases from the existing Word docum
 ## 1.3 Team Members:
 
 | Role               | Name          | Responsibilities                                                    |
-| ------------------ |:-------------:| -------------------------------------------------------------------:|
+| ------------------ |:-------------:| -------------------------------------------------------------------|
 | QA Lead            | [Name]        | Define test plans, review test cases, and manage overall execution. |
 | QA Engineer/Tester | [Name]        | Execute manual and automated tests and report defects.              |
 | Developer          | [Name]        | Provide builds for testing and assist with bug fixes.               |
