@@ -61,3 +61,15 @@ The test plan has been created to communicate the test approach to all team memb
 This plan will cover functional testing, user acceptance testing (UAT), performance testing, cross-browser compatibility, security checks, and responsive testing on various devices and browsers.
 Performance testing will be considered part of this project due to the large user base and concurrent users using the site hourly or daily.
 Rewriting, moving, or archiving existing test cases from the existing Word documents will be revisited during future iterations as features are released. This will keep testing up to date with new updates and remove redundant testing to maintain SLA and feature release schedule.
+
+## 1.3 Team Members:
+
+Role	Name	Responsibilities
+QA Lead	[Name]	Define test plans, review test cases, and manage overall execution.
+
+
+QA Engineer/Tester	Byron Munoz	Execute manual and automated tests and report defects.
+Developer	[Name]	Provide builds for testing and assist with bug fixes.
+UI/UX Designer	[Name]	Validate that the custom page adheres to design guidelines.
+Product Manager	[Name]	Ensure the custom page meets business and user requirements.
+DevOps Engineer	[Name]	Manage the test environment and deployment process.
