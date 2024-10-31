@@ -203,7 +203,7 @@ The initial test schedule follows……….
 
 # 6	Entry & Exit Criteria
 
-# 6.1	Entry Criteria:
+6.1	Entry Criteria:
 
 •	Custom Page Development is complete and ready for testing
 
@@ -211,7 +211,7 @@ The initial test schedule follows……….
 
 •	Test data is available for all input fields and scenarios
 
-# 6.2	Exit Criteria:
+6.2	Exit Criteria:
 
 •	All test cases executed with 100% coverage.
 
