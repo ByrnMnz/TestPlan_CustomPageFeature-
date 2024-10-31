@@ -105,3 +105,96 @@ Exploratory testing will play a large part in the testing, as it focuses on loca
 5.	Security Testing: Ensure that the custom page is secure, protecting sensitive user data, and adhering to best practices for web security.
 6.	Regression Testing: Confirm that the custom page's functionalities remain stable after updates or new releases.
 
+## 3.2	Test Scope:
+In-scope testing
+•	Functional testing of all interactive elements (forms, buttons, links).
+•	Verifying page layout consistency across different browsers and devices.
+•	Ensuring the page adheres to the design and functionality specifications.
+•	Load and stress testing for performance validation.
+•	Security validation to protect user data and prevent vulnerabilities.
+•	Multi-user collaboration to ensure no crashes while multiple users update/edit the custom page(s)
+Out-of-Scope
+•	API or back-end server testing (assumed to be handled separately).
+
+## 4 Test Environment
+
+•	Operating Systems: Windows 10, Windows 11, Linux, macOS, iOS, Android
+•	Browsers: Chrome, Firefox, Safari, Edge
+•	Devices: Desktop, Tablet, Mobile (various screen resolutions)
+•	Network: High-speed and slow internet conditions will be incorporated.
+
+## 4.1	Test Cases
+
+4.1.1	Functional Tests
+
+| Test Case Description                         | Precondition                  | Tests Steps                                                         | Expected Result
+| --------------------------------------------- |:-----------------------------:| ------------------------------------------------------------------- | ------------------------------------------------------------------------------|
+| Verify the custom page loads without errors   | The user is logged in         | 1. Navigate to the custom page. 2. Observe page load behavior.      | The custom page loads without errors in under 3 seconds.                      |
+| Test form submission functionality            | Form fields are empty         | 1. Fill in the form. 2. Submit the form.                            | The form is submitted successfully, and the user sees a confirmation message. |
+| Validate error handling on invalid form inputs| Form fields are present       | 1. Enter invalid inputs. 2. Submit the form.                        | Proper error messages are shown next to the invalid fields.                   |
+
+4.1.2	UI/UX Tests
+
+| Test Case Description                                  | Precondition                  | Tests Steps                                                         | Expected Result
+| ------------------------------------------------------ |:-----------------------------:| ------------------------------------------------------------------- | ------------------------------------------------------------------------------|
+| Validate page layout on desktop, tablet, and mobile    | The user is logged in         | 1. Open the custom page on desktop, tablet, and mobile devices.     | The layout adapts correctly to different screen sizes.                        |
+| Verify button and link functionality                   | Page is loaded                | 1. Click each button and link. 2. Observe the actions.              | All buttons/links trigger the correct actions or navigate properly.           |
+
+4.1.3	Performance Tests
+
+| Test Case Description                             | Precondition                     | Tests Steps                                            | Expected Result
+| ------------------------------------------------- |:--------------------------------:| ------------------------------------------------------ | --------------------------------------------------------|
+| Validate page load time under normal conditions   | The user is logged in            | 1. Load the page and measure load time.                | Page loads within 2-3 seconds under normal conditions.  |
+| Stress test with 500 concurrent users             | User traffic is simulated        | 1. Simulate 500 users accessing the page concurrently. | Page performance remains stable, with minimal latency.  |
+
+4.1.4	Cross-Browser Compatibility
+
+| Test Case Description                                    | Precondition                | Tests Steps                                                       | Expected Result
+| -------------------------------------------------------  |:---------------------------:| ----------------------------------------------------------------- | --------------------------------------------------------------------|
+| Test compatibility on Chrome, Firefox, Safari, and Edge  | Page is live                | 1. Open the page on different browsers. 2. Verify UI consistency. |The page works consistently and without issues across all browsers.  |
+| Stress test with 500 concurrent users                    | User traffic is simulated   | 1. Simulate 500 users accessing the page concurrently.            | Page performance remains stable, with minimal latency.              |
+
+
+4.1.5	Security Tests
+
+| Test Case Description                               | Precondition                | Tests Steps                                                       | Expected Result
+| --------------------------------------------------  |:---------------------------:| ----------------------------------------------------------------- | --------------------------------------------------------------------|
+| Verify form input validation against SQL injection  | Form is active              |1. Enter SQL injection string in input fields. 2. Submit form.     | The form should sanitize input and prevent SQL injection attacks.  |
+| Check HTTPS encryption for a secure connection      |User accesses the page       | 1. Navigate to the page and check the URL for HTTPS.              | The page should be secured with HTTPS encryption.
+
+ # 5	Milestones & Deliverables
+ 
+5.1	Test Schedule:
+The initial test schedule follows……….
+
+| Phase                  | Duration | Team Member                  | 
+| -----------------------|:-------: | ---------------------------- | 
+| Test Plan Review       | 3 Days   | QA Lead, Product Manager     |
+| Environment Setup      | 1 Day    | DevOps Engineer              |
+| Test Case Design       | 3 Days   | QA Engineers                 |
+| Test Case Execution    | 5 Day    | QA Engineers                 |
+| Bug Reporting & Triage | Ongoing  | QA Engineers, Developers     |
+| Regression Testing     | 2 Day    | QA Engineers                 |
+| Final Review           | 1 Days   | QA Lead, Product manager     |
+
+
+# 5.2	Deliverables:
+
+•	Detailed Test Plan
+•	Tests Case Documentation
+•	Test Execution Report
+•	But Reports (tracking in the bug tracking system)
+•	Final Test Summary
+
+# 6	Entry & Exit Criteria
+6.1	Entry Criteria:
+
+•	Custom Page Development is complete and ready for testing
+•	Test environment is set up and accessible
+•	Test data is available for all input fields and scenarios
+
+6.2	Exit Criteria:
+
+•	All test cases executed with 100% coverage.
+•	No critical or high-severity bugs remain unresolved.
+•	The test summary report has been reviewed and approved by stakeholders.
